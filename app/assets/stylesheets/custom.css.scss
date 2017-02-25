@@ -3,6 +3,12 @@ $navbar-default-bg: #0ba845;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
@@ -24,7 +30,7 @@ $navbar-default-bg: #0ba845;
 .jumbotron {
   background-image: asset-url('leaves.jpeg');
   background-size: cover;
-  height: 550px;
+  height: 650px;
 }
 
 .jumbotron h1 {
@@ -35,7 +41,47 @@ $navbar-default-bg: #0ba845;
   font-weight: bold;
 }
 
-.btn-xlarge {
+.btn-style {
   font-size: 1.7em;
   background-color: #0ba845;
+}
+
+.main-wrapper {
+  box-sizing: border-box;
+  min-height: 100%;
+  padding: 0 0 100px;
+  position: relative;
+}
+
+.footer {
+  bottom: 0;
+  height: 100px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  // padding-top: 5px;
+  // border-top: 1px solid #0ba845;
+  // color: #777;
+}
+
+.footer a:hover {
+  color: #222;
+}
+
+.footer small {
+  float: right;
+}
+
+.footer ul {
+  float: left;
+  list-style: none;
+}
+
+.footer ul li {
+  float: right;
+  margin-right: 15px;
+}
+
+.footer ul li a {
+  color: #0ba845;
 }
