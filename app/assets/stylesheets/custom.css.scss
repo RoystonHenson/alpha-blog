@@ -3,11 +3,11 @@ $navbar-default-bg: #0ba845;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
+// html, body {
+//   height: 100%;
+//   margin: 0;
+//   padding: 0;
+// }
 
 #logo {
   float: left;
@@ -46,22 +46,22 @@ html, body {
   background-color: #0ba845;
 }
 
-.main-wrapper {
-  box-sizing: border-box;
-  min-height: 100%;
-  padding: 0 0 100px;
-  position: relative;
-}
+// .main-wrapper {
+//   box-sizing: border-box;
+//   min-height: 100%;
+//   padding: 0 0 100px;
+//   position: relative;
+// }
 
 .footer {
-  bottom: 0;
-  height: 100px;
-  left: 0;
-  position: absolute;
-  width: 100%;
-  // padding-top: 5px;
-  // border-top: 1px solid #0ba845;
-  // color: #777;
+  // bottom: 0;
+  // height: 100px;
+  // left: 0;
+  // position: absolute;
+  // width: 100%;
+  padding-top: 5px;
+  border-top: 1px solid #0ba845;
+  color: #777;
 }
 
 .footer a:hover {
