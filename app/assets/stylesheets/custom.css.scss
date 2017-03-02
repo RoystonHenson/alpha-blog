@@ -27,6 +27,10 @@ $navbar-default-bg: #0ba845;
   text-align: center;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .jumbotron {
   background-image: asset-url('leaves.jpeg');
   background-size: cover;
@@ -54,8 +58,21 @@ $navbar-default-bg: #0ba845;
   margin: 10px 0 0 70px;
 }
 
+.btn-back {
+  margin-left: 85px;
+}
+
 #title {
   padding-right: 49px;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
 }
 
 .footer {
@@ -87,5 +104,5 @@ $navbar-default-bg: #0ba845;
 }
 
 .border {
-  border: 1px solid red;
+  border: solid red 1px;
 }
